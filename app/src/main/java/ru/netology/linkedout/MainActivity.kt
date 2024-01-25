@@ -9,7 +9,6 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import ru.netology.linkedout.databinding.ActivityMainBinding
 
-// I have to check Github
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
