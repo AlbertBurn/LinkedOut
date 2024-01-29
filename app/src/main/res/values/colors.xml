@@ -7,4 +7,6 @@
     <color name="primary_light">#BBFBEE</color>
     <color name="accent">#447BBA</color>
 
+    <color name="white">#FFFFFFFF</color>
+
 </resources>

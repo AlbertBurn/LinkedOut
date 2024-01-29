@@ -8,4 +8,13 @@
     <string name="sing_up">Sign Up\n</string>
     <string name="add_post">Add post</string>
     <string name="add_event">Add event</string>
+    <string name="author_name">Boris Britva</string>
+    <string name="sample_published_date">3 march 1861</string>
+    <string name="video_container">Video</string>
+    <string name="company_name">Roga and Kopita</string>
+    <string name="position">CEO</string>
+    <string name="start_date">Start date</string>
+    <string name="link_description">Link</string>
+    <string name="remove">Remove</string>
+    <string name="text_tool">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 </resources>
