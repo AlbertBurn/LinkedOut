@@ -8,5 +8,6 @@
     <color name="accent">#447BBA</color>
 
     <color name="white">#FFFFFFFF</color>
+    <color name="liked">#F44336</color>
 
 </resources>
