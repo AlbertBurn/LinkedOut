@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/common_spacing"
-            android:src="@drawable/online_ic"
+            android:src="@drawable/baseline_online_prediction_24"
             app:layout_constraintEnd_toStartOf="@id/menu"
             app:layout_constraintStart_toEndOf="@id/published"
             app:layout_constraintTop_toTopOf="parent"
@@ -67,7 +67,7 @@
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
             android:layout_marginStart="@dimen/small_spacing"
-            android:icon="@drawable/menu_ic"
+            android:icon="@drawable/baseline_menu_24"
             android:visibility="gone"
             app:iconTint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +140,7 @@
                 android:alpha="0.8"
                 android:contentDescription="@string/video_container"
                 android:scaleType="centerCrop"
-                android:src="@drawable/play_arrow_ic" />
+                android:src="@drawable/baseline_play_arrow_24" />
 
             <ProgressBar
                 android:id="@+id/video_progress_bar"
