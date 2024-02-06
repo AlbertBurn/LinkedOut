@@ -11,7 +11,7 @@
         android:title="@string/events" />
 
     <item
-        android:id="@+id/userProfileFragment"
+        android:id="@+id/userFragment"
         android:icon="@drawable/baseline_person_24"
         android:title="@string/my_profile" />
 

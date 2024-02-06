@@ -29,4 +29,11 @@
     <string name="enter_text">Enter text</string>
     <string name="end_date">End date</string>
     <string name="enter_link">Enter link</string>
+    <string name="retry">Retry</string>
+    <string name="edit_post">Edit post</string>
+    <string name="sign_in">Sign in</string>
+    <string name="new_event">New event</string>
+    <string name="add_new_job">Add new job</string>
+    <string name="edit_event">Edit event</string>
+    <string name="edit_job">Edit job</string>
 </resources>

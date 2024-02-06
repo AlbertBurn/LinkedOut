@@ -2,24 +2,92 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    android:id="@+id/nav_host"
+    app:startDestination="@id/postFragment">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="ru.netology.linkedout.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/postFragment"
+        android:name="ru.netology.linkedout.ui.FeedPostsFragment"
+        android:label="@string/posts" >
+        <action
+            android:id="@+id/action_postFragment_to_editPostFragment"
+            app:destination="@id/editPostFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_checInFragment"
+            app:destination="@id/checInFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_newEventFragment"
+            app:destination="@id/newEventFragment" />
+        <action
+            android:id="@+id/action_postFragment_to_feedEventsFragment"
+            app:destination="@id/feedEventsFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="ru.netology.linkedout.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
+        android:id="@+id/editPostFragment"
+        android:name="ru.netology.linkedout.ui.EditPostFragment"
+        android:label="@string/edit_post" />
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="ru.netology.linkedout.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/userFragment"
+        android:name="ru.netology.linkedout.ui.UserFragment"
+        android:label="@string/my_profile" >
+        <action
+            android:id="@+id/action_userFragment_to_newJobFragment"
+            app:destination="@id/newJobFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_editJobFragment"
+            app:destination="@id/editJobFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ru.netology.linkedout.ui.LoginFragment"
+        android:label="@string/login" />
+    <fragment
+        android:id="@+id/checInFragment"
+        android:name="ru.netology.linkedout.ui.CheckInFragment"
+        android:label="@string/sign_in" >
+        <action
+            android:id="@+id/action_checkInFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newEventFragment"
+        android:name="ru.netology.linkedout.ui.NewEventFragment"
+        android:label="@string/new_event" >
+    </fragment>
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="ru.netology.linkedout.ui.NewPostFragment"
+        android:label="@string/add_post" >
+    </fragment>
+    <fragment
+        android:id="@+id/newJobFragment"
+        android:name="ru.netology.linkedout.ui.NewJobFragment"
+        android:label="@string/add_new_job"
+        tools:layout="@layout/fragment_new_job" />
+    <fragment
+        android:id="@+id/feedEventsFragment"
+        android:name="ru.netology.linkedout.ui.FeedEventsFragment"
+        android:label="@string/events"
+        tools:layout="@layout/fragment_feed_events" >
+        <action
+            android:id="@+id/action_feedEventsFragment_to_editEventFragment"
+            app:destination="@id/editEventFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editEventFragment"
+        android:name="ru.netology.linkedout.ui.EditEventFragment"
+        android:label="@string/edit_event" />
+    <fragment
+        android:id="@+id/editJobFragment"
+        android:name="ru.netology.linkedout.ui.EditJobFragment"
+        android:label="@string/edit_job" />
 </navigation>
