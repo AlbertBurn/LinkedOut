@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
+    <style name="Widget.AppTheme.LikeCheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="iconTint">@color/color_like_selector</item>
+    </style>
 
     <style name="Widget.AppTheme.IconStyle" parent="Widget.MaterialComponents.Button">
 
@@ -21,7 +24,7 @@
         <item name="android:layout_marginVertical">@dimen/small_spacing</item>
     </style>
 
-    <style name="Widget.AppTheme.CheckBox" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+    <style name="Widget.AppTheme.CheckBox" parent="Widget.MaterialComponents.Button.TextButton.Icon" tools:ignore="DuplicateDefinition">
         <item name="iconTint">@color/primary</item>
         <item name="android:minWidth">@dimen/icon_size</item>
         <item name="android:minHeight">@dimen/icon_size</item>

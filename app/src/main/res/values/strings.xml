@@ -36,4 +36,5 @@
     <string name="add_new_job">Add new job</string>
     <string name="edit_event">Edit event</string>
     <string name="edit_job">Edit job</string>
+    <string name="edit_text">Edit text</string>
 </resources>

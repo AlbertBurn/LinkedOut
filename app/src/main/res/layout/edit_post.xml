@@ -10,12 +10,12 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         android:padding="@dimen/common_spacing"
-        android:background="@android:color/transparent"
-        />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:layout_height="@dimen/avatar_size"
             android:layout_margin="@dimen/small_spacing"
             android:layout_weight="1"
-            app:icon="@drawable/cancel_ic"
+            app:icon="@drawable/baseline_cancel_24"
             android:gravity="center"
             app:iconTint="@color/white"
             tools:ignore="RelativeOverlap,RtlSymmetry" />
