@@ -24,12 +24,6 @@
         <item name="android:layout_marginVertical">@dimen/small_spacing</item>
     </style>
 
-    <style name="Widget.AppTheme.CheckBox" parent="Widget.MaterialComponents.Button.TextButton.Icon" tools:ignore="DuplicateDefinition">
-        <item name="iconTint">@color/primary</item>
-        <item name="android:minWidth">@dimen/icon_size</item>
-        <item name="android:minHeight">@dimen/icon_size</item>
-    </style>
-
     <style name="Widget.AppTheme.CheckBox" parent="Widget.MaterialComponents.Button.TextButton.Icon">
         <item name="iconTint">@color/primary</item>
         <item name="background">@color/primary_text</item>

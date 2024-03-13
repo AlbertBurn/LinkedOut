@@ -59,7 +59,7 @@ class EventViewHolder(
         binding.apply {
             when (event.type) {
                 EventType.OFFLINE -> type.setImageResource(R.drawable.offline_ic)
-                EventType.ONLINE -> type.setImageResource(R.drawable.online_ic)
+                EventType.ONLINE -> type.setImageResource(R.drawable.baseline_online_prediction_24)
             }
             if (event.authorAvatar != null) {
                 avatar.loadCircleCrop(event.authorAvatar)
